@@ -11,13 +11,16 @@ def fetch_yahoo_news():
     if not feed.entries:
         print("⚠️ 沒有找到任何新聞標題，請檢查 RSS 來源！")
         return
-    
+
     print("✅ 成功抓取 Yahoo News 頭條新聞！\n")
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         for i, entry in enumerate(feed.entries[:10], 1):
-            headline = f"{i}. {entry.title}\n{entry.link}\n\n"
-            f.write(headline)
+            if "title" in entry and "link" in entry:  # 確保標題和連結存在
+                headline = f"{i}. {entry.title}\n{entry.link}\n\n"
+                f.write(headline)
+
+    print("✅ 新聞標題已成功寫入 headlines.txt")
 
 if __name__ == "__main__":
     fetch_yahoo_news()
