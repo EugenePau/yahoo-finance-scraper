@@ -7,9 +7,10 @@ This project is a Yahoo Finance data scraper that fetches real-time and historic
 
 You can use this tool to:
 
-Retrieve stock prices, volumes, and trends.
-Collect financial news headlines.
-Store data efficiently for further analysis.
+-Retrieve stock prices, volumes, and trends.
+-Collect financial news headlines.
+-Store data efficiently for further analysis.
+-Combine with my another project 'GDG_stock_tech_analysis' to form an automated real-time stock analysis system
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Features
@@ -70,6 +71,7 @@ yahoo-finance-scraper/
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🤝 Contributing
+
 Contributions are welcome! 🚀
 To contribute:
 
