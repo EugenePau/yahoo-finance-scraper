@@ -22,7 +22,7 @@ jobs:
         run: pip install pandas yfinance pyarrow
 
       - name: 📰 執行 `scraper.py`
-        run: python scraper.py
+        run: python stock_data_scraper.py
 
       - name: 🔄 檢查是否有變更
         run: |
