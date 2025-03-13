@@ -18,8 +18,8 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: 📦 安裝 `feedparser`
-        run: pip install feedparser
+      - name: 📦 安裝 Libraries
+        run: pip install pandas yfinance pyarrow
 
       - name: 📰 執行 `scraper.py`
         run: python scraper.py
