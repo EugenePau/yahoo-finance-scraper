@@ -1,4 +1,4 @@
-name: Scrape Yahoo News
+name: Scrape Yahoo Finance Stock Data
 
 on:
   schedule:
