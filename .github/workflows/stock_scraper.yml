@@ -34,6 +34,6 @@ jobs:
         run: |
           mkdir -p data/stock  
           mv stock_data_*.parquet data/stock/ 2>/dev/null || echo "⚠️ No .parquet files to move"
-          git add downloads/data/
+          git add data/stock
           git commit -m "📂 Moved stock data parquet files into downloads/data/ folder" || echo "⚠️ No changes to commit"
           git push origin main || echo "⚠️ No changes to push"
