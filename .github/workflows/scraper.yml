@@ -28,6 +28,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add headlines.txt
-          git commit -m "🔄 更新 Yahoo News 頭條新聞" || echo "⚠️ 沒有新變更，跳過提交"
-          git push || echo "⚠️ 沒有新變更，跳過推送"
+          git add stock_data_*.parquet
+          git commit -m "🔄 Stock Data Updated" || echo "⚠️ No Update."
+          git push || echo "⚠️ No Git Psuh"
