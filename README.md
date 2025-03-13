@@ -3,7 +3,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📖 Introduction
 
-This project is a Yahoo Finance data scraper that fetches real-time and historical stock market data. It saves the data in .parquet format for analysis.
+This project is a Yahoo Finance data scraper that fetches real-time and historical stock market data with CI/CD schedules. It saves the data in .parquet format daily for analysis.
 
 You can use this tool to:
 
