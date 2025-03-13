@@ -8,17 +8,24 @@ This project is a Yahoo Finance data scraper that fetches real-time and historic
 You can use this tool to:
 
 -Retrieve stock prices, volumes, and trends.
+
 -Collect financial news headlines.
+
 -Store data efficiently for further analysis.
+
 -Combine with my another project 'GDG_stock_tech_analysis' to form an automated real-time stock analysis system
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Features
 
 ✔️ Fetch news and stock data from Yahoo Finance
+
 ✔️ Save data in Parquet format for better performance
+
 ✔️ Automate daily scraping using GitHub Actions
+
 ✔️ Organize data into downloads/data/ folder
+
 ✔️ Simple and easy-to-use Python scripts
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
