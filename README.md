@@ -49,6 +49,7 @@ This will fetch financial news headlines and store them in data/news/
 
 📂 Project Structure
 
+'''
 yahoo-finance-scraper/
 │── data/             # Folder for scraped stock data
 │   ├── data/              # Stores stock_data_*.parquet files
@@ -62,7 +63,7 @@ yahoo-finance-scraper/
 │── .gitignore             # Ignore unnecessary files
 │── README.md              # Project documentation
 │── requirements.txt       # Required Python packages
-
+'''
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🤝 Contributing
