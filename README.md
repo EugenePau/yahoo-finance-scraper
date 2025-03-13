@@ -33,11 +33,17 @@ You can use this tool to:
 ⚙️ Installation
 
 🔹 Prerequisites
+
 Python 3.8+
+
 pip (Python package manager)
+
 Git (optional, for cloning the repository)
+
 feedparser
+
 pandas
+
 yfinance
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -80,13 +86,20 @@ yahoo-finance-scraper/
 🤝 Contributing
 
 Contributions are welcome! 🚀
+
 To contribute:
 
 Fork the repository
+
 Create a new branch (git checkout -b feature-branch)
+
 Make your changes
+
 Commit your changes (git commit -m "Added new feature")
+
 Push to GitHub (git push origin feature-branch)
+
 Open a Pull Request
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
