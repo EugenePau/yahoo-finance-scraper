@@ -24,10 +24,14 @@ jobs:
       - name: 📰 執行 `scraper.py`
         run: python stock_data_scraper.py
 
-      - name: 🔄 檢查是否有變更
+      - name: 🔑 Setup Git Authentication
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+    
+      - name: 🔄 Commit and Push Changes
+        run: |
           git add stock_data_*.parquet
-          git commit -m "🔄 Stock Data Updated" || echo "⚠️ No Update."
-          git push || echo "⚠️ No Git Push"
+          git commit -m "🔄 Stock Data Updated" || echo "⚠️ No changes to commit"
+          git push origin main || echo "⚠️ No changes to push"
